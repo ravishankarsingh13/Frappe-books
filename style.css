@@ -63,58 +63,7 @@ img{
     width: 55%;
     height: 40%;
 }
-.footer-logo{
-    height: 2rem;
-    width: 5rem;
-    object-fit: contain;
-    object-position: left;
-    margin: 3px;
-}
-.text-left{
-    text-align: left !important;
-}
-.text-right{
-    text-align: right !important;
-}
-.footer-links .row{
-    display: flex;
-    flex-wrap: wrap;
-    margin-right: -15px;
-    margin-left: -15px;
-    /* margin-bottom: 15px; */
-    /* margin-top: 5px; */
-}
-.footer-col-left{
-    text-align: left;
-    padding-top: 0.8rem;
-    padding-bottom: 1rem;
-    line-height: 2;
-}
-.footer-col-right{
-    text-align: right;
-    padding-top: 0.8rem;
-    padding-bottom: 1rem;
-    line-height: 2;
-}
-.footer-link{
-    padding: 5px;
-    margin-right: 2px;
-    font-weight: 500;
-    color: #4C5A67;
-}
 
-.footer-info {
-    border-top: 1px solid #E2E6E9;
-    color: #74808B;
-    font-size: .875rem;
-}
-
-.footer-info .row{
-    display: flex;
-    flex-wrap: wrap;
-    margin-right: -15px;
-    margin-left: -15px;
-}
 
 .card {
     position: relative;
@@ -202,4 +151,63 @@ img{
     margin-bottom: -0.5rem;
     background-color: #f8b4b4;
     /* left: 16.67%; */
+}
+
+.footer-logo{
+    height: 2rem;
+    width: 5rem;
+    object-fit: contain;
+    object-position: left;
+    margin: 3px;
+}
+.text-left{
+    text-align: left !important;
+}
+.text-right{
+    text-align: right !important;
+}
+.footer-links .row{
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+    /* margin-bottom: 15px; */
+    /* margin-top: 5px; */
+}
+.footer-col-left{
+    text-align: left;
+    padding-top: 0.8rem;
+    padding-bottom: 1rem;
+    line-height: 2;
+}
+.footer-col-right{
+    text-align: right;
+    padding-top: 0.8rem;
+    padding-bottom: 1rem;
+    line-height: 2;
+}
+.footer-link{
+    padding: 5px;
+    margin-right: 2px;
+    font-weight: 500;
+    color: #4C5A67;
+}
+
+.footer-info {
+    border-top: 1px solid #E2E6E9;
+    color: #74808B;
+    font-size: .875rem;
+}
+
+.footer-info .row{
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+@media only screen and (max-width: 767px){
+    .image1{
+        display: none;
+    }
 }
